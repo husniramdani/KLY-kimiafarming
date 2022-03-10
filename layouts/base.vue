@@ -1,6 +1,8 @@
 <template>
   <div class="min-w-full overflow-hidden">
-    Layout base
+    Header nanti disini
+    <Nuxt />
+    Footer disini
   </div>
 </template>
 <script>
