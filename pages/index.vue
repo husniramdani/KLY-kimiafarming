@@ -8,7 +8,7 @@
         :key="idx"
       >
         <button
-          @click="onSearchCategory(category)"
+          @click="onSelectCategory(category)"
           class="block border text-left w-full p-5 rounded-md flex items-center hover:border-blue-500"
         >
           <img class="w-12 mr-3" :src="category.image_url" :alt="category.slug" />
@@ -30,7 +30,7 @@ export default {
     return { categories };
   },
   methods: {
-    onSearchCategory(category) {
+    onSelectCategory(category) {
       this.$router.push(`${category.slug}`);
     },
   },
