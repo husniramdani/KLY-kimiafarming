@@ -1,6 +1,6 @@
 <template>
   <div class="shadow rounded p-10 pt-2 m-16">
-    <NuxtLink to="./" >Back to product</NuxtLink >
+    <!-- <NuxtLink to="./" >Back to product</NuxtLink > -->
     
     <div class="flex">
       <div>

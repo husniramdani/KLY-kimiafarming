@@ -1,6 +1,6 @@
 <template>
   <div class="shadow rounded p-10 pt-2 m-16">
-    <NuxtLink to="/" >Back to category</NuxtLink >
+    <!-- <NuxtLink to="/" >Back to category</NuxtLink > -->
     <h1 class="text-2xl font-bold">Obat Berdasarkan Kategori</h1>
     <div class="mt-5 grid grid-cols-4 gap-4">
       <div
